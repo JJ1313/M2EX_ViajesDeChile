@@ -77,6 +77,10 @@ nav {
 }
 
 #highlight-section {
+  h2 {
+    border-bottom: 1px solid var(--clr-white);
+  }
+
   .card {
     background: var(--clr-blue-light);
     border-radius: 0;
@@ -88,4 +92,25 @@ nav {
       aspect-ratio: 1.5;
     }
   }
+}
+
+#contact-section {
+  h2 {
+    border-bottom: 1px solid var(--clr-white);
+  }
+
+  input,
+  textarea {
+    border-radius: 0;
+  }
+
+  button[type='submit'] {
+    background: var(--clr-blue-light);
+    border-radius: 0;
+  }
+}
+
+footer {
+  background: var(--clr-blue-light);
+  min-height: 15rem;
 }

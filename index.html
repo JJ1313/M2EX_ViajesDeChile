@@ -55,7 +55,7 @@
   </header>
   <main>
     <section id="about-section" class="container | d-none d-md-block | py-5">
-      <h2 class="text-center | pb-4 mb-4">¿Quienes Somos?</h2>
+      <h2 class="text-center text-uppercase fs-3 | pb-4 mb-4">¿Quienes Somos?</h2>
       <div class="row row-cols-1 row-cols-md-3">
         <div class="col">
           <div class="icon-wrapper | text-center | py-2"><i class="fa-solid fa-plane fa-xl"></i></div>
@@ -74,7 +74,7 @@
 
     </section>
     <section id="highlight-section" class="container | py-5">
-      <h2 class="text-center">Destacados</h2>
+      <h2 class="text-center text-uppercase fs-3 | pb-4 mb-4">Destacados</h2>
       <div class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
           <div class="col">
@@ -116,9 +116,35 @@
         </div>
       </div>
     </section>
-    <section id="contact-section"></section>
+    <section id="contact-section" class="container | py-5">
+      <h2 class="text-center text-uppercase fs-3 | pb-4 mb-4">Contacto</h2>
+      <form action="" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="subject" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea type="text" class="form-control" id="message" rows="9" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
   </main>
-  <footer>
+  <footer class="d-flex align-items-center">
+    <div class="container | d-flex ">
+      <h2 class="fs-3 text-uppercase ms-0 ms-md-5 ">Viajes Chile</h2>
+      <div class="d-flex gap-4 | ms-auto me-0 me-md-5">
+        <a href="https://www.github.com" target="_blank"><i class="fa-brands fa-square-github fa-2xl"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-x-twitter fa-2xl"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+      </div>
+    </div>
 
   </footer>
 
