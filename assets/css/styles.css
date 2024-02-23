@@ -47,3 +47,8 @@ nav {
   }
 
 }
+
+#hero-section {
+  max-height: 100dvh;
+  overflow-y: hidden;
+}
