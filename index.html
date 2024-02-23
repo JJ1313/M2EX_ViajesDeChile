@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbar">
           <div class="navbar-nav ms-auto">
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            <a class="nav-link" href="#about-section">Quienes Somos</a>
+            <a class="nav-link d-none d-md-block" href="#about-section">Quienes Somos</a>
             <a class="nav-link" href="#highlight-section">Destacados</a>
             <a class="nav-link" href="#contact-section">Contacto</a>
           </div>
@@ -33,7 +33,7 @@
       <div id="carousel-hero" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/img/carousel1.jpg" class="d-block" alt="Llamas>
+            <img src="./assets/img/carousel1.jpg" class="d-block" alt="Llamas">
           </div>
           <div class="carousel-item">
             <img src="./assets/img/carousel2.jpg" class="d-block" alt="Moais">
@@ -54,33 +54,76 @@
     </section>
   </header>
   <main>
-    <section id="about-section" class="container">
-      <h2 class="text-center">¿Quienes Somos?</h2>
-      <div class="row row-cols-md-3">
+    <section id="about-section" class="container | d-none d-md-block | py-5">
+      <h2 class="text-center | pb-4 mb-4">¿Quienes Somos?</h2>
+      <div class="row row-cols-1 row-cols-md-3">
         <div class="col">
-          <div class="icon-wrapper">icon</div>
+          <div class="icon-wrapper | text-center | py-2"><i class="fa-solid fa-plane fa-xl"></i></div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui asperiores deleniti obcaecati, neque autem ipsum blanditiis fugit quis in natus quia officiis cumque libero. Doloremque perferendis repellat voluptatum exercitationem ea assumenda minima quis, optio blanditiis aliquid? Sint libero, vel officia iste assumenda dolore pariatur inventore aut nostrum dignissimos! Dignissimos, sit?</p>
         </div>
         <div class="col">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eveniet! Sed optio dolorum iusto laudantium eum fuga recusandae quae, mollitia aliquam tenetur labore totam illum velit dolore repellendus deserunt assumenda, tempora est laboriosam, fugit architecto voluptatum nisi ullam expedita? Hic sequi neque deleniti excepturi deserunt est accusantium voluptatum omnis itaque.</p>
-          <div class="icon-wrapper">icon</div>
+          <div class="icon-wrapper | text-center | py-2"><i class="fa-solid fa-mountain fa-xl"></i></div>
           
         </div>
         <div class="col">
-          <div class="icon-wrapper">icon</div>
+          <div class="icon-wrapper | text-center | py-2"><i class="fa-solid fa-route fa-xl"></i></div>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, saepe. Nostrum, magnam? Voluptate fuga consectetur explicabo dolor blanditiis, quis ea laboriosam, voluptatibus modi possimus culpa voluptatem harum? Aliquam, dignissimos error. Obcaecati officia, et dignissimos minus tempora nulla consequatur placeat, quasi, odio mollitia hic facilis maxime sint fugit tempore pariatur! Est?</p>
         </div>
       </div>
 
     </section>
-    <section id="highlight-section"></section>
+    <section id="highlight-section" class="container | py-5">
+      <h2 class="text-center">Destacados</h2>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/card1.jpg" class="card-img-top" alt="Lago con montañas">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas neque similique voluptatibus non suscipit sequi molestiae ipsum impedit soluta consequuntur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/card2.jpg" class="card-img-top" alt="Lago con montañas deserticas">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas neque similique voluptatibus non suscipit sequi molestiae ipsum impedit soluta consequuntur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/card3.jpg" class="card-img-top" alt="Salar">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas neque similique voluptatibus non suscipit sequi molestiae ipsum impedit soluta consequuntur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/card4.jpg" class="card-img-top" alt="Selva">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas neque similique voluptatibus non suscipit sequi molestiae ipsum impedit soluta consequuntur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contact-section"></section>
   </main>
   <footer>
 
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" />
-  <script src="./assets/js/index.js"/>
+  <script src="https://kit.fontawesome.com/359c8a6f56.js" crossorigin="anonymous" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./assets/js/index.js"></script>
 </body>
 </html>
