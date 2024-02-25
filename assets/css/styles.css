@@ -24,7 +24,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* ========= SECTIONS ========= */
+/* ========= LAYOUT ========= */
 nav {
   .navbar-brand {
     display: flex;
@@ -60,28 +60,18 @@ nav {
   }
 
   img {
-    max-height: 100dvh;
-    width: 100%;
+    height: 800px;
     object-fit: cover;
-
   }
 }
 
 #about-section {
-  h2 {
-    border-bottom: 1px solid var(--clr-white);
-  }
-
   .icon-wrapper {
     background: var(--clr-blue-light);
   }
 }
 
 #highlight-section {
-  h2 {
-    border-bottom: 1px solid var(--clr-white);
-  }
-
   .card {
     background: var(--clr-blue-light);
     border-radius: 0;
@@ -96,9 +86,6 @@ nav {
 }
 
 #contact-section {
-  h2 {
-    border-bottom: 1px solid var(--clr-white);
-  }
 
   input,
   textarea {
@@ -120,7 +107,14 @@ footer {
   }
 }
 
-/* ========= BOOTSTRAP ========= */
+/* ========= COMPONENTS ========= */
+.title-section {
+  border-bottom: 1px solid var(--clr-white);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* ========= CUSTOM BOOTSTRAP ========= */
 .custom-tooltip {
   --bs-tooltip-bg: var(--clr-white);
   --bs-tooltip-color: var(--bs-black);
