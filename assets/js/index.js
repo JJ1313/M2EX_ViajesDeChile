@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
   const btnSubmit = document.querySelector('#btn-submit');
 
-  btnSubmit.addEventListener('click', (event)=>{
+  btnSubmit.addEventListener('click', (event) => {
     event.preventDefault();
     alert('Mensaje enviado con exito');
   });

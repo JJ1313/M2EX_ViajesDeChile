@@ -24,6 +24,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* ========= SECTIONS ========= */
 nav {
   .navbar-brand {
     display: flex;
@@ -113,8 +114,13 @@ nav {
 footer {
   background: var(--clr-blue-light);
   min-height: 15rem;
+
+  a {
+    color: var(--clr-white);
+  }
 }
 
+/* ========= BOOTSTRAP ========= */
 .custom-tooltip {
   --bs-tooltip-bg: var(--clr-white);
   --bs-tooltip-color: var(--bs-black);
