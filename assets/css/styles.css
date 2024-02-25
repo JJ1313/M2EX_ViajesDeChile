@@ -26,6 +26,16 @@ body {
 
 /* ========= LAYOUT ========= */
 nav {
+  transition: all 300ms ease-in-out;
+
+  &[data-bg='fill'] {
+    background: var(--clr-black);
+  }
+
+  &[data-bg='transparent'] {
+    background: transparent;
+  }
+
   .navbar-brand {
     display: flex;
     /* align-items: center; */
