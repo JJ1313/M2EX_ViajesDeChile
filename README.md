@@ -1,6 +1,4 @@
 # Viajes de Chile
-Sitio sobre Viajes Chile.
-
 Tarea Final Modulo 2 - Fundamentos desarrollo frontend.
 
 ## Tecnologías
