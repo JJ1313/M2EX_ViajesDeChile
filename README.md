@@ -1,6 +1,6 @@
 # Viajes de Chile
-Tarea Final Modulo 2 - Fundamentos desarrollo frontend
-Sitio sobe Viajes de Chile
+Tarea Final Modulo 2 - Fundamentos desarrollo frontend.
+Sitio sobe Viajes Chile.
 
 ## Tecnologías
 
@@ -21,9 +21,9 @@ Sitio sobe Viajes de Chile
 - ### Quienes somos 
 > Responsivo que solom se visualiza en dispositivos medianos.
 - ### Destacados
-> Cuatro cards de boostrap que se reordenan dependiendo del tamañod el dispositivo.
+> Cuatro cards de boostrap que se reordenan dependiendo del tamaño del dispositivo.
 - ### Contacto
-> Formulario que activa una alerta al hacer submit.
+> Formulario que activa una alerta al hacer submit, y tooltip de bootstraps en boton enviar mensaje.
 - ### Footer
 > Con links a redes sociales.
 
