@@ -15,13 +15,13 @@ Tarea Final Modulo 2 - Fundamentos desarrollo frontend.
 - ### Navbar
  > Responsivo con smooth scrool a secciones de la web, que cambia su background al hacer scroll.
 - ### Hero 
-> Con carousel de bootstrap
+> Con carousel de bootstrap.
 - ### Quienes somos 
 > Responsivo que solom se visualiza en dispositivos medianos.
 - ### Destacados
 > Cuatro cards de boostrap que se reordenan dependiendo del tamaño del dispositivo.
 - ### Contacto
-> Formulario que activa una alerta al hacer submit, y tooltip de bootstraps en boton enviar mensaje.
+> Formulario que activa una alerta al hacer submit y tooltip de bootstrap en boton enviar mensaje.
 - ### Footer
 > Con links a redes sociales.
 
