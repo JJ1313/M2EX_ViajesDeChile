@@ -1,5 +1,5 @@
 # Viajes de Chile
-Tarea Final Modulo 2 - Fundamentos desarrollo frontend.
+Tarea Final Modulo 2 - Fundamentos desarrollo frontend - Desarrollo de aplicaciones Fullstack javascript - DesafioLatam.
 
 ## Tecnologías
 - HTML
@@ -17,7 +17,7 @@ Tarea Final Modulo 2 - Fundamentos desarrollo frontend.
 - ### Hero 
 > Con carousel de bootstrap.
 - ### Quienes somos 
-> Responsivo que solom se visualiza en dispositivos medianos.
+> Responsivo que solo se visualiza en dispositivos medianos.
 - ### Destacados
 > Cuatro cards de boostrap que se reordenan dependiendo del tamaño del dispositivo.
 - ### Contacto
