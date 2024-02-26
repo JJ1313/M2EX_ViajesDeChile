@@ -1,5 +1,7 @@
 # Viajes de Chile
-Tarea Final Modulo 2 - Fundamentos desarrollo frontend - Desarrollo de aplicaciones Fullstack javascript - DesafioLatam.
+Tarea Final Modulo 2 - Fundamentos desarrollo frontend
+
+Desarrollo de aplicaciones Fullstack javascript - DesafioLatam.
 
 ## Tecnologías
 - HTML
