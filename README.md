@@ -15,7 +15,7 @@ Desarrollo de aplicaciones Fullstack javascript - DesafioLatam.
 
 ## Secciones
 - ### Navbar
- > Responsivo con smooth scrool a secciones de la web, que cambia su background al hacer scroll.
+ > Responsivo con smooth scrooll a secciones de la web, que cambia su background al hacer scroll.
 - ### Hero 
 > Con carousel de bootstrap.
 - ### Quienes somos 
