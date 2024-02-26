@@ -14,12 +14,18 @@ Sitio sobe Viajes de Chile
 - Google Fonts
 
 ## Secciones
-- Navbar: Responsivo con smooth scrool a secciones de la web, que cambia su background al hacer scroll.
-- Hero: Con carousel de bootstrap
-- Quienes somos: Responsivo que solom se visualiza en dispositivos medianos.
-- Destacados: Cuatro cards de boostrap que se reordenan dependiendo del tamañod el dispositivo.
-- Contacto: Formulario que activa una alerta al hacer submit.
-- Footer: Con links a redes sociales.
+- Navbar
+ > Responsivo con smooth scrool a secciones de la web, que cambia su background al hacer scroll.
+- Hero 
+> Con carousel de bootstrap
+- Quienes somos 
+> Responsivo que solom se visualiza en dispositivos medianos.
+- Destacados
+> Cuatro cards de boostrap que se reordenan dependiendo del tamañod el dispositivo.
+- Contacto
+> Formulario que activa una alerta al hacer submit.
+- Footer
+> Con links a redes sociales.
 
 ## Visualizar
 [link de sitio web](jj1313.github.io/M2EX_ViajesDeChile/)
